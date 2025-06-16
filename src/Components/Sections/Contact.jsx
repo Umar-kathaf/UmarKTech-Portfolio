@@ -27,11 +27,11 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex item-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black via-slate-900 to-black"
     >
       <RevealOnScroll>
-        <div className="px-4 w-150">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+        <div className="w-full max-w-md sm:max-w-lg lg:max-w-xl">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-10 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Get In Touch
           </h2>
           <form action="" className="space-y-6" onSubmit={handleSubmit}>
